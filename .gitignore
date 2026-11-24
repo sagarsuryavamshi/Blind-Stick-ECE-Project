@@ -1,21 +1,22 @@
 # Dependency directories
 node_modules/
 */node_modules/
+*/*/node_modules/
 
 # Production build artifacts
 dist/
 dist-ssr/
 build/
 */dist/
+*/*/dist/
 
 # Environment files and credentials (CRITICAL: Never commit secrets)
 .env
 .env.*
 !.env.example
 *.env
-server/.env
-smart-blind-stick/backend/.env
-smart-blind-stick/frontend/.env
+*/.env
+*/*/.env
 
 # Logs and runtime data
 *.log
